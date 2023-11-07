@@ -1,0 +1,91 @@
+.background {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 450px;
+  margin: 0 auto;
+  min-height: 300px;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: left;
+  background-color: #ffff;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px #000;
+}
+
+.quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.left {
+  font-size: 1.25em;
+  margin-right: 0.4em;
+}
+.right {
+  font-size: 1.25em;
+  margin-left: 0.5em;
+}
+
+
+#quote-content {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+
+}
+
+#author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.button{
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.9;
+}
+.button#tweet-quote,
+.button#tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+.button#new-quote {
+  float: right;
+}
